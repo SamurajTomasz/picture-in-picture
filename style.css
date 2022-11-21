@@ -1,0 +1,40 @@
+
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #3f3f3f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.button-container {
+    padding: 20px;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+    font-size: 25px;
+    width: 150px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: darkgray;
+    color: #fff;
+    box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.8);
+}
+
+button:hover {
+    font-size: 26px;
+    background: linear-gradient(to top, darkgray, rgb(180,180,180));
+}
+
+button:active {
+    transform: translateY(3px);
+}
